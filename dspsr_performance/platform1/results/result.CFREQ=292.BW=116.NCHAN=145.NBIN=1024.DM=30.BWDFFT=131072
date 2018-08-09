@@ -1,0 +1,21 @@
+dspsr: Loading ephemeris from /home/bpsr/benchmarks/ska_prototyping/pulsar.par
+dspsr: Loading phase model from /home/bpsr/benchmarks/ska_prototyping/polyco.dat
+dspsr: Using at least 5000 MB
+dspsr: thread 0 using CUDA device 0
+dspsr: thread 0 on stream 0x1adc4c0
+dspsr: input_buffering enabled
+dspsr: unpacker supports device memory
+dspsr: setting filter length to 131072
+dspsr: dedispersion filter length=131072 (minimum=16384) complex samples
+dspsr: convolution requires at least 131072 samples
+dspsr: blocksize=1003520 samples or 4995.7 MB
+dspsr: prepared in 1.62131 seconds
+Finished 0.1 s   Finished 0.2 s   Finished 0.3 s   Finished 0.4 s   Finished 0.5 s   Finished 0.6 s   Finished 0.7 s   Operation                Time Spent               Discarded                
+DADABuffer               0.374011                 0                        
+SKA1Unpacker             0.200254                 0                        
+Convolution              1.528909                 0                        
+Detection                0.14092                  0                        
+Fold                     0.612009                 0                        
+unloading 0.79 seconds: 2010-04-13-02:05:45
+dsp::Archiver::unload in 0.007833 seconds
+7.26

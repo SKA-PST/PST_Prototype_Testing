@@ -1,0 +1,25 @@
+dspsr: Loading ephemeris from /home/bpsr/benchmarks/ska_prototyping/pulsar.par
+dspsr: Loading phase model from /home/bpsr/benchmarks/ska_prototyping/polyco.dat
+dspsr: Using at least 5000 MB
+dspsr: thread 0 using CUDA device 0
+dspsr: thread 0 on stream 0x18af4c0
+dspsr: input_buffering enabled
+dspsr: unpacker supports device memory
+dspsr: setting filter length to 1048576
+dspsr: dedispersion filter length=1048576 (minimum=16384) complex samples
+dspsr: convolution requires at least 1048576 samples
+dspsr: blocksize=1048576 samples or 5220 MB
+dspsr: prepared in 5.86372 seconds
+cufftResult_to_string result=2
+
+Error::stack
+	dsp::SingleThread::run
+	dsp::SingleThread::run
+	dsp::Transformation[Convolution]::operation
+	CUDA::ConvolutionEngineSpectral::setup_batched
+Error::FailedCall
+Error::message
+	cufftMakePlanMany (plan_fwd): CUFFT failed to allocate GPU or CPU memory
+
+Command exited with non-zero status 255
+9.20

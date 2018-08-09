@@ -1,0 +1,16 @@
+dspsr: Loading ephemeris from /home/bpsr/benchmarks/ska_prototyping/pulsar.par
+dspsr: Loading phase model from /home/bpsr/benchmarks/ska_prototyping/polyco.dat
+dspsr: Using at least 5000 MB
+dspsr: thread 0 using CUDA device 0
+dspsr: thread 0 on stream 0x1b98400
+dspsr: input_buffering disabled
+dspsr: unpacker supports device memory
+dspsr: disabling input buffering, using overlap memory instead
+dspsr: setting filter length to 524288
+dspsr: dedispersion filter length=524288 (minimum=16384) complex samples
+dspsr: convolution requires at least 524288 samples
+dsp::IOManager::set_block_size block_resize=2069504
+dspsr: blocksize=2069504 samples or 4263.05 MB
+dspsr: prepared in 2.75183 seconds
+Command terminated by signal 2
+6.56
