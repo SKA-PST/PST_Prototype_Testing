@@ -1,0 +1,24 @@
+dspsr: Loading ephemeris from /u/b6p207aa/benchmarks/ska_prototyping/pulsar.par
+dspsr: Loading phase model from /u/b6p207aa/benchmarks/ska_prototyping/polyco.dat
+dspsr: Using at least 4000 MB
+dspsr: thread 0 using CUDA device 0
+dspsr: thread 0 on stream 0x10039de1970
+dspsr: input_buffering disabled
+dspsr: unpacker supports device memory
+dspsr: disabling input buffering, using overlap memory instead
+dspsr: setting filter length to 32768
+part 0 of 1 offset=0
+dspsr: dedispersion filter length=32768 (minimum=8192) complex samples
+dspsr: convolution requires at least 32768 samples
+dsp::IOManager::set_block_size block_resize=1927168
+dspsr: blocksize=1927168 samples or 3969.84 MB
+dspsr: prepared in 1.84134 seconds
+Finished 0.1 s   Finished 0.3 s   Finished 0.5 s   Finished 0.7 s   Finished 0.9 s   Finished 1.1 s   Finished 1.3 s   Finished 1.5 s   Finished 1.7 s   Finished 1.9 s   Finished 2.1 s   Finished 2.3 s   Finished 2.4 s   Finished 2.6 s   Finished 2.8 s   Finished 3 s   Finished 3.2 s   Finished 3.4 s   Finished 3.6 s   Finished 3.8 s   Finished 4 s   Finished 4.2 s   Finished 4.4 s   Finished 4.6 s   Finished 4.8 s   Finished 4.9 s   Finished 5.1 s   Finished 5.3 s   Finished 5.5 s   Finished 5.7 s   Finished 5.9 s   Finished 6.1 s   Finished 6.3 s   Finished 6.5 s   Finished 6.7 s   Finished 6.9 s   Finished 7.1 s   Finished 7.2 s   Finished 7.4 s   Finished 7.6 s   Finished 7.8 s   Finished 8 s   Finished 8.2 s   Finished 8.4 s   Finished 8.6 s   Finished 8.8 s   Finished 9 s   Finished 9.2 s   Finished 9.4 s   Finished 9.6 s   Finished 9.7 s   Finished 9.9 s   Operation                Time Spent               Discarded                
+DADABuffer               0.698846                 0                        
+SKA1Unpacker             0.236776                 0                        
+Convolution              3.368842                 0                        
+Detection                0.36464                  0                        
+Fold                     2.227199                 0                        
+unloading 10 seconds: 2010-04-13-02:05:45
+dsp::Archiver::unload in 0.002868 seconds
+9.03

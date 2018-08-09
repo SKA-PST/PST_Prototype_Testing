@@ -1,0 +1,28 @@
+dspsr: Loading ephemeris from /u/b6p207aa/benchmarks/ska_prototyping/pulsar.par
+dspsr: Loading phase model from /u/b6p207aa/benchmarks/ska_prototyping/polyco.dat
+dspsr: Using at least 4000 MB
+ipcio_seek: 1174405120 > max backwards 0
+dsp::DADABuffer::seek_bytes error ipcio_seek
+dspsr: thread 0 using CUDA device 0
+dspsr: thread 0 on stream 0x1002f0a1860
+dspsr: input_buffering disabled
+dspsr: unpacker supports device memory
+dspsr: disabling input buffering, using overlap memory instead
+dspsr: setting filter length to 16777216
+part 0 of 2 offset=0
+part 1 of 2 offset=536870912
+dspsr: dedispersion filter length=16777216 (minimum=1048576) complex samples
+dspsr: convolution requires at least 16777216 samples
+dsp::IOManager::set_block_size block_resize=16777216
+dspsr: blocksize=16777216 samples or 20160 MB
+dspsr: prepared in 24.8105 seconds
+
+Error::stack
+	dsp::SingleThread::run
+	CUDA::DeviceMemory::do_allocate
+Error::InvalidState
+Error::message
+	cudaMalloc failed on device 0: out of memory
+
+Command exited with non-zero status 255
+25.22
